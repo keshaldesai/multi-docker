@@ -6,7 +6,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      component: server-deployment
+      component: server
   template:
     metadata:
       labels:
